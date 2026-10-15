@@ -8,6 +8,7 @@ public class Order {
     
     public void addItem(MenuItem item) {
         items.add(item);
+        //Print out item name 
         System.out.println("Item " + item.getName() + " added");
     }
     
