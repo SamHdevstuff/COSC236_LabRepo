@@ -3,7 +3,7 @@ package restaurant;
 public class MenuItem {
     private String name;
     private double priceInDollars;
-
+// price is changed to priceInDollars
     public MenuItem(String name, double price) {
         this.name = name;
         this.priceInDollars = price;
