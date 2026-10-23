@@ -3,7 +3,7 @@ package restaurant;
 public class Customer {
     private String name;
     private Order order;
-//g
+
     public Customer(String name) {
         this.name = name;
         this.order = new Order();  // Collaborating with Order class
