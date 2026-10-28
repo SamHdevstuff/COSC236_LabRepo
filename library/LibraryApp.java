@@ -12,12 +12,15 @@ public class LibraryApp {
  private HashMap<String, ArrayList<String>> memberBorrowedBooks = new HashMap<>();
 
  // Adds a book to the library catalog
+ /*
  public void addBook(String bookName) {
      availableBooks.add(bookName);
      System.out.println(bookName + " has been added to the catalog.");
  }
+ */
 
  // Adds a new member to the library (without a separate class)
+ /*
  public void addMember(String memberName) {
      if (!memberBorrowedBooks.containsKey(memberName)) {
          memberBorrowedBooks.put(memberName, new ArrayList<>());
@@ -26,8 +29,10 @@ public class LibraryApp {
          System.out.println("Member " + memberName + " already exists.");
      }
  }
+ */
 
  // Borrow a book from the library
+ /*
  public void borrowBook(String bookName, String memberName) {
      if (!memberBorrowedBooks.containsKey(memberName)) {
          System.out.println("Member " + memberName + " not found.");
@@ -42,8 +47,10 @@ public class LibraryApp {
          System.out.println(bookName + " is either already borrowed or not available.");
      }
  }
+ */
 
  // Return a book to the library
+ /*
  public void returnBook(String bookName, String memberName) {
      if (!memberBorrowedBooks.containsKey(memberName)) {
          System.out.println("Member " + memberName + " not found.");
@@ -58,8 +65,10 @@ public class LibraryApp {
          System.out.println(memberName + " didn't borrow " + bookName);
      }
  }
+ */
 
  // Show the available books in the library
+ /*
  public void showAvailableBooks() {
      System.out.println("Available Books:");
      for (String book : availableBooks) {
@@ -74,6 +83,7 @@ public void showMembers() {
        System.out.println(member);
    }
 }
+*/
   
 public static void main(String[] args) {
 	
