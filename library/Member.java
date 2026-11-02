@@ -1,5 +1,7 @@
 package library;
 
+import java.util.ArrayList;
+
 public class Member {
 
 	// GRASP Principle: Information Expert and Low Coupling
@@ -24,5 +26,12 @@ public class Member {
 		return borrowedBooks;
 	}
 	// TODO: implement functionality of Member class
-
+	 public void addMember(String memberName) {
+	     if (!memberBorrowedBooks.containsKey(memberName)) {
+	         memberBorrowedBooks.put(memberName, new ArrayList<>());
+	         System.out.println("Member " + memberName + " has been added.");
+	     } else {
+	         System.out.println("Member " + memberName + " already exists.");
+	     }
+	 }
 }
