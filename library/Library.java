@@ -16,19 +16,9 @@ public class Library {
 		this.catalog = new ArrayList<>();
 		this.members = new ArrayList<>();
 	}
-	 public void addBook(String bookName) {
-	     availableBooks.add(bookName);
-	     System.out.println(bookName + " has been added to the catalog.");
-	 }
 	// TODO: implement functionality of Member class
 	
-	private List<Book> catalog;
-	private List<Member> members;
 	
-	public Library() {
-		this.catalog = new ArrayList<>();
-		this.members = new ArrayList<>();
-	}
 	
 	// GRASP creator: create and store books
 	public Book addBook(String title, String author) {
