@@ -76,11 +76,11 @@ public class Library {
 	public List<Member> getMembers() {
 		return members;
 	}
-	/*
+	
 	public List<Book> getCatalog() {
 		return catalog;
 	}
-	*/
+	
 
 
 }
