@@ -85,6 +85,7 @@ public static void main(String[] args) {
     System.out.println("\n *** Show all books:");
     library.showAvailableBooks();
     
+<<<<<<< Updated upstream
     // Adding members
     System.out.println("\n *** Adding \"Alice\" to the library members");
     library.addMember("Alice");
@@ -132,6 +133,8 @@ public static void main(String[] args) {
     // Show available books after borrowing
     System.out.println("\n *** Show all books:");
     library.showAvailableBooks();
+=======
+>>>>>>> Stashed changes
 
 	}
 }
