@@ -88,7 +88,11 @@ public class LibraryApp {
 	    lc.showAvailableBooks();
 	    System.out.println("\n ======================================================================\n");
 	    
-    
+	    //display catalog
+	    System.out.println("\n ======================================================================\n");
+	    System.out.println("Display library catalog\n");
+	    lc.displayCatalog();
+	    System.out.println("\n ======================================================================\n");
     
     
     // Return a book

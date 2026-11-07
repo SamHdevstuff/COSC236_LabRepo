@@ -87,4 +87,18 @@ public class LibrarianController {
 			System.out.println(member);
 		}
 	}
+	
+	//controller lookup books and members
+	public void lookupBook(String title) {
+		library.findBook(title);
+	}
+	
+	public void lookupMember(String memberId) {
+		library.findMember(memberId);
+	}
+	
+	public void displayCatalog() {
+		System.out.println("Library Catalog: ");
+		System.out.println(library.getCatalog());
+	}
 }
