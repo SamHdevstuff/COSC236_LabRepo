@@ -90,11 +90,23 @@ public class LibrarianController {
 	
 	//controller lookup books and members
 	public void lookupBook(String title) {
-		library.findBook(title);
+		Book book = library.findBook(title);
+		
+		if (book == null) {
+			System.out.println("Book not found");
+			return;
+		}
+		System.out.println("Book found:\nTitle: " + book.getTitle() + "\nAuthor: " + book.getAuthor());
 	}
 	
 	public void lookupMember(String memberId) {
-		library.findMember(memberId);
+		Member member = library.findMember(memberId);
+		
+		if (member == null) {
+			System.out.println("Member not found");
+			return;
+		}
+		System.out.println("Member found:\n Name: " + member.getName() + "\nID: " + member.getMemberId());
 	}
 	
 	public void displayCatalog() {

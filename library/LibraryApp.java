@@ -93,28 +93,23 @@ public class LibraryApp {
 	    System.out.println("Display library catalog\n");
 	    lc.displayCatalog();
 	    System.out.println("\n ======================================================================\n");
+	    
+	    //lookup a book
+	    System.out.println("\n ======================================================================\n");
+	    System.out.println("Look up a book\n");
+	    System.out.println("Look up \"Dune\" ");
+	    lc.lookupBook("Dune");
+	    System.out.println("Look up \"War and Peace\" ");
+	    lc.lookupBook("War and Peace");
+	    
+	    //lookup a member
+	    System.out.println("\n ======================================================================\n");
+	    System.out.println("look up a member\n");
+	    System.out.println("Look up \"LI786456\" ");
+	    lc.lookupMember("LI786456");
+	    System.out.println("Look up \"LI334998\" ");
+	    lc.lookupMember("LI334998");
+	    System.out.println("\n ======================================================================\n");
     
-    
-    // Return a book
-    /*
-    System.out.println("\n *** Alice returns Dune:");
-    library.returnBook("Dune", "Alice");
-    */
-
-    // Show available books after returning
-    /*
-    System.out.println("\n *** Show all books:");
-    library.showAvailableBooks();
-
-    System.out.println("\n *** Bob borrows Dune:") ;
-    library.borrowBook("Dune", "Bob");
-    */
-    
-    // Show available books after borrowing
-    /*
-    System.out.println("\n *** Show all books:");
-    library.showAvailableBooks();
-    */
-
 	}
 }
